@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document created by Christy Chatmon, Spring 2019*/
+
+body {
+	font: 100%/1.4 Century Gothic, Helvetica, sans-serif;
+	line-height: 1.5em;
+	color: #222939;
+	background-color: #9BADB3;
+	padding: 0 50px;
+	text-align: left;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #222939;
+}
+h1 {
+	font-size: 29px;
+	padding: 10px 0;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+h2 {
+	color: #fff;
+	font-size: 23px;
+	padding: 8px;
+	letter-spacing: 0.2em;
+	background-color: #222939;
+	font-weight: bold;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-color: #fff;
+	padding: 4px 0;
+	font-variant: normal;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #222939;
+	text-decoration: none;
+}
+a:hover {
+	color: #fff;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: none;
+	margin-left: 12px;
+}
+ol {
+	margin-left: 10px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #fff 2px;
+}
+td {
+	padding: 7px;
+	border: solid #fff 1.5px;
+	text-align: center
+	
+}
+th {
+	font-weight: bold;
+	background-color: #fff;
+	text-align: center;
+	padding: 6px;
+	border: solid #fff 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #222939 1.5px;
+}
+
+img {
+	border: solid #fff 7px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+iframe {
+	border: solid #222939 1px;
+	padding: 8px;
+	margin: 8px;
+}
+/* Avery Stevens 3/26/19 */
