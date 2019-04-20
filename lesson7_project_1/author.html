@@ -6,7 +6,8 @@
     <meta name="description" content="Social Media">
     <meta name="keywords" content="ICT, Social Media">
     <meta name="author" content="Avery Stevens">
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-navbar.css">
     <title> Social Media </title>
     <!--Avery Stevens April 8th, 2019 -->
   </head>
@@ -17,7 +18,13 @@
       <div id="header">
         <img src="images/header.jpg" width="100%" alt="Social Media header">
         <h1>Social Media History and Influences</h1>
-        <p> <a href="index.html">Overview</a> | <a href="media.html">Media</a> | <a href="author.html">Author</a></p>
+        <div id="navbar">
+          <ul  id="menu">
+            <li><a href="index.html" class="button">Overview</a></li>
+            <li><a href="media.html" class="button">Media</a></li>
+            <li><a href="author.html" class="button selected">Author</a></li>
+          </ul>
+        </div> <!-- end navbar -->
       </div><!-- end header -->
       
       <div id="content">
@@ -44,7 +51,7 @@
             <td bgcolor="#222939">&nbsp;</td>
             <td bgcolor="#9BADB3">&nbsp;</td>
             <td bgcolor="#fff">&nbsp;</td>
-            <td bgcolor="#00293B">&nbsp;</td>
+            <td bgcolor="#eee">&nbsp;</td>
         </tr>
         </table>
         <p>This custom color palette was chosen to coordinate with the images throughout the webpage. This gives the page a cohesive look and makes the photos stand out.</p>
